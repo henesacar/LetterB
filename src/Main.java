@@ -13,6 +13,8 @@ public class Main {
                 }
             }
         }
+        letter[0][3]="   ";
+        letter[6][3]="   ";
         for (String[] row : letter){
             for (String col : row){
                 System.out.print(col);
